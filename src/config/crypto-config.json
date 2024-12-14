@@ -1,0 +1,12 @@
+{
+  "PARAMETER_LENGTHS": {
+    "IV_LENGTH": 16,
+    "SALT_LENGTH": 32,
+    "SECRET_KEY_LENGTH": 32,
+    "HASH_LENGTH": 32
+  },
+  "KEY_DERIVATION": {
+    "TIME_COST": 4,
+    "PARALLELISM": 2
+  }
+}
