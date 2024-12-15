@@ -22,7 +22,43 @@ This project integrates cryptographic solutions using Argon2 for password hashin
 - `centralized-error-handling`
 - `eslint`
 
-## Project Structure
+## Table of Contents
+
+1. [Overview](#overview)  
+2. [Project Structure](#project-structure)  
+   - [Configurations](#configurations)  
+     - [`app-settings.ts`](#app-settingsts)  
+     - [`crypto-config.json`](#crypto-configjson)  
+     - [`constants-config.ts`](#constants-configts)  
+   - [Logging Setup](#logging-setup)  
+   - [Centralized Error Handling](#centralized-error-handling)  
+   - [Utility Helper Class](#utility-helper-class)  
+3. [Dependencies](#dependencies)  
+4. [Core Features](#core-features)  
+   - [Encryption Parameters](#1-encryption-parameters)  
+   - [Environment Configuration for Playwright Tests](#2-environment-configuration-for-playwright-tests)  
+     - [Global Environment Configuration (`globalEnvConfig.ts`)](#global-environment-configuration-globalenvconfigts)  
+     - [Global Setup Loader (`globalSetUpLoader.ts`)](#global-setup-loader-globalsetuploader-ts)  
+     - [Playwright Configuration (`playwright.config.ts`)](#playwright-configuration-playwrightconfigts)  
+     - [Environment Variables Class (`ENV.ts`)](#environment-variables-class-envts)  
+   - [`CryptoUtil` Class](#3-cryptoutil-class)  
+     - [Key Features](#key-features)  
+       - [Generate Secure Parameters](#generate-secure-parameters)  
+       - [Key Derivation with Argon2](#key-derivation-with-argon2)  
+       - [Encrypt and Decrypt Data](#encrypt-and-decrypt-data)  
+5. [Playwright Setup Guide](#playwright-setup-guide)  
+   - [Prerequisites](#prerequisites)  
+   - [Initial Setup](#initial-setup)  
+   - [Linting Configuration](#linting-configuration)  
+   - [Scripts](#scripts)  
+   - [Environment Setup Process](#environment-setup-process)  
+6. [Project Test Workflow](#project-test-workflow)  
+   - [Step 1: Validate Environment Loader](#step-1-validate-environment-loader)  
+   - [Step 2: Generate Secret Key](#step-2-generate-secret-key)  
+   - [Step 3: Encrypt Credentials](#step-3-encrypt-credentials)  
+   - [Step 4: Decrypt Credentials](#step-4-decrypt-credentials)  
+
+---
 
 ### Configurations
 
