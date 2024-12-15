@@ -3,25 +3,6 @@
 ## Overview
 This project integrates cryptographic solutions using Argon2 for password hashing with Playwright automation for UI testing. The modular architecture features reusable components, robust configuration settings, and centralized error handling. TypeScript is used for type safety and maintainability.
 
-### Keywords:
-- `playwright`
-- `typescript`
-- `argon2`
-- `crypto-js`
-- `encryption`
-- `decryption`
-- `hashing`
-- `logging`
-- `winston`
-- `dotenv`
-- `cross-env`
-- `reporting`
-- `playwright-report`
-- `ortoni-report`
-- `error-handling`
-- `centralized-error-handling`
-- `eslint`
-
 ## Table of Contents
 
 1. [Overview](#overview)  
@@ -57,6 +38,27 @@ This project integrates cryptographic solutions using Argon2 for password hashin
    - [Step 2: Generate Secret Key](#step-2-generate-secret-key)  
    - [Step 3: Encrypt Credentials](#step-3-encrypt-credentials)  
    - [Step 4: Decrypt Credentials](#step-4-decrypt-credentials)  
+
+---
+
+### Keywords:
+- `playwright`
+- `typescript`
+- `argon2`
+- `crypto-js`
+- `encryption`
+- `decryption`
+- `hashing`
+- `logging`
+- `winston`
+- `dotenv`
+- `cross-env`
+- `reporting`
+- `playwright-report`
+- `ortoni-report`
+- `error-handling`
+- `centralized-error-handling`
+- `eslint`
 
 ---
 
