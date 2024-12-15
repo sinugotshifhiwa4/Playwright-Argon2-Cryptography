@@ -4,19 +4,6 @@
 
 The `CryptoUtil` class is the core of this project, providing utility methods for generating cryptographic parameters, encrypting and decrypting data, and managing key derivation.
 
-### Dependencies
-
-```typescript
-import * as argon2 from "argon2";
-import CryptoJS from "crypto-js";
-import * as crypto from "crypto";
-import type * as cryptoTypes from "../models/cryptoTypes";
-import * as cryptoConfig from "../config/crypto-config.json";
-import { FileEncoding } from "../config/app.settings";
-import ConstantsConfig from "../config/constantsConfig";
-import ErrorHandler from "../helpers/errorHandler";
-```
-
 ### Key Features of `CryptoUtil`
 
 #### 3.1 Generate Secure Parameters
