@@ -1,5 +1,3 @@
-
-```markdown
 # Playwright-Argon2-Cryptography
 
 ## Overview
@@ -283,9 +281,7 @@ Key `package.json` scripts:
    npm run test:uat
    ```
 
-
-
-# Project Test Workflow
+## Project Test Workflow
 
 For this project, some tests depend on other tests, and the sequence of execution is crucial. The following steps should be followed in order to ensure that all processes are tested correctly:
 
@@ -328,4 +324,4 @@ run DecryptCredentials.spec.ts
 ```
 
 By following this sequence, you will be able to validate the full encryption and decryption process in your project.
-```
+
