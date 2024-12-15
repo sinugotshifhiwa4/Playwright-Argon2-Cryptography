@@ -291,7 +291,7 @@ Before running any other tests, ensure the environment configuration files are l
 
 **Command:**
 ```
-C:\PERSONAL_PROJECTS\Playwright-Crypto\Forge-Argon2\tests\unitTests\ValidateEnvLoader.spec
+./tests\unitTests\ValidateEnvLoader.spec
 ```
 
 This will verify that the environment files are being loaded correctly.
